@@ -2,6 +2,7 @@ from random import uniform, random
 
 
 def main():
+    """get score and print random score"""
     score = float(input("Enter score:"))
     result = evaluate_score(score)
     print(result)
@@ -12,6 +13,7 @@ def main():
 
 
 def evaluate_score(score):
+    """give evaluation based on score"""
     if score < 0 or score > 100:
         return "Invalid score"
     elif score < 50:
