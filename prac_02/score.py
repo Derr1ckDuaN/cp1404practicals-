@@ -8,7 +8,7 @@ def main():
     print(result)
 
     random_score = uniform(0,100)
-    print("random_socre", random_score)
+    print("random_score", random_score)
     print(evaluate_score(random_score))
 
 
